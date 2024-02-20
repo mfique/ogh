@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CREATE ACCOUNT</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+  <nav id="log">
+    <h2>Connect to the FIQUE </h2>
+  </nav>
+  <form  id="registrationForm">
+    <h2>Sign up:</h2>
+    <div class="input">
+      <input type="text" name="fullname" placeholder="Full Name" id="fullname" />
+    </div>
+    <div class="input">
+      <input type="text" name="email" placeholder="Email" id="email" />
+    </div>
+    <div class="input">
+      <input type="number" name="phone" placeholder="Phone number" id="phonenumber" />
+    </div>
+    </div>
+    <div class="input">
+      <input type="password" name="password" placeholder="Password" id="password" />
+    </div>
+    <div class="input">
+      <input type="password" name="confirm_password" placeholder="Confirm password" id="confirm_password" />
+    </div>
+    <div class="button" id="submitRegistation">
+      <button type="submit">Sign Up</button>
+    </div>
+  </form>
+  <div id="formList"></div>
+  <script src="registration.js">
+  </script>
+</body>
+</html>

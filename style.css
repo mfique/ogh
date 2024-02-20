@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    background-color: #E0E7E9;
+    color: #354649;
+    margin-top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav{
+    background-color:yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#sign{
+    background-color:green;
+    border-radius: 14px;
+    width: 85px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:navy;
+}
+  .input {
+    width: 250px;
+    position: relative;
+  }
+  .input input {
+    position: relative;
+    width: 250px;
+    background-color: #A3C6C4;
+    border: 3px solid gray;
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    border-radius: 15px;
+    outline: none;
+  }
+  .login_in{
+    border-radius: 7px;
+    width: 90px;
+    height: 25px;
+    color:#6C7A89 ;
+    background-color: #A3C6C4;
+    cursor: pointer;
+    border: 3px solid gray;
+    font-weight: bold;
+    outline: none;
+    font-size: 14px;
+  }
+  .log{
+    background-color: yellow;
+    border-radius: 14px;
+    width: 85px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:navy;
+}
+  .button button {
+    font-size: 15px;
+    font-weight:bolder;
+    background-color: #6C7A89;
+    outline: none;
+    color: whitesmoke;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  .button button:hover {
+    transform: translateX(-6px) translateY(6px);
+    transition: all 0.5s;
+  }
+  .button button:focus {
+    background-color: #A3C6C4;
+    color: #6C7A89;
+  }
+  h2 {
+    color:yellow;
+    font-size: 40px;
+    margin-bottom: 15px;
+    height: fit-content;
+  }
+  .account {
+    color: rgb(130, 160, 185);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  div img {
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  @media (max-width: 1300px) {
+    .image {
+      opacity: 0;
+    }
+    h2 {
+      display: block;
+      margin-left: 0px;
+    }
+    .input input {
+      display: block;
+      position: relative;
+      margin-left: 0px;
+      gap: 30px;
+    }
+    .button button {
+      margin-left: 0px;
+    }
+    .account {
+      margin-left: 0px;
+    }
+}
